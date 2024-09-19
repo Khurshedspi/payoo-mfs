@@ -32,7 +32,7 @@ document.getElementById('button-login').addEventListener('click', function(event
     const pinNumber = document.getElementById('pin-number').value;
     if(phoneNumber === '015' && pinNumber === '123'){
         console.log('Successfully Login');
-        window.location.href = '../home.html'
+        window.location.href = '/payoo-mfs/home.html'
     }
     else{
         alert('Incorrect your Phone Number or Pin Number')
